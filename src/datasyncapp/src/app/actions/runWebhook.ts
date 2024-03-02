@@ -2,7 +2,7 @@
 import { z } from 'zod';
 
 // Server Action
-export async function runWebhook(formData: FormData) {
+export async function runWebhook(prevState: any, formData: FormData) {
   // 'use server';
   console.log('Hellooo!');
 
@@ -16,7 +16,7 @@ export async function runWebhook(formData: FormData) {
     webhook: formData.get('webhook'),
   });
   if (!validatedFields.success) {
-    return { message: 'No good' };
+    return { isError: true, message: 'Invalue input' };
   }
 
   // Parse input
@@ -28,13 +28,13 @@ export async function runWebhook(formData: FormData) {
   const url = data.webhook;
   try {
     const res = await fetch(url, { cache: 'no-store' });
-    const json = res.json();
-    console.log('WEBHOOK', url, res.status, json);
+    const text = await res.text();
+    console.log('WEBHOOK', url, res.status, text);
 
     // revalidatePath('/')
 
-    return { message: 'Did stuff' };
+    return { isError: res.status >= 400, message: text };
   } catch (e) {
-    return { message: 'No good' };
+    return { isError: true, message: 'No good' };
   }
 }
