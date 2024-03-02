@@ -1,0 +1,43 @@
+﻿---
+ID: "cd4e28ce-da8a-4dbd-8c67-c07c3d2e1166"
+Parent: "3396dd63-706a-45c3-8c16-201cfee4cecc"
+Template: "0a22b6fb-fca8-402d-b48b-9d44de06ec0b"
+Path: /sitecore/system/Modules/DataSync/Import CSV
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14271d7d-8c95-4ee3-988c-c8bec1bb0dda"
+      Hint: NewItemParent
+      Value: "{1A3DA54C-2F42-4D96-AB6D-6C06B528867D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240302T033436Z
+    - ID: "2cee8550-d4ae-4f77-9321-a820ec7800bc"
+      Hint: NewItemTemplate
+      Value: "{C8718648-A4F9-4B1B-AB72-51EFC3DC8C05}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\james.gregory@americaneagle.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\james.gregory@americaneagle.com
+    - ID: "73920796-b89f-4b0a-80e2-020771bea7fc"
+      Hint: Language
+      Value: en
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbcdd7de-1286-4ba5-9c91-a223e6c4987c"
+    - ID: "b8e57c2e-aa70-45ee-807e-9dc6be909e4e"
+      Hint: WebhookUrl
+      Value: "https://webhooks.workato.com/webhooks/rest/8e1cc198-1474-4019-bda9-2f432fb2c50d/importcsv"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\james.gregory@americaneagle.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240302T072432Z

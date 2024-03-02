@@ -34,6 +34,18 @@
              "allowedPushOperations": "CreateUpdateAndDelete"
           },
           {
+             "name": "DataSyncTemplates",
+             "path": "/sitecore/templates/Modules/DataSync",
+             "scope": "itemAndDescendants",
+             "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+             "name": "DataSync",
+             "path": "/sitecore/system/Modules/DataSync",
+             "scope": "itemAndDescendants",
+             "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
              "name": "Media",
              "path": "/sitecore/Media Library/Project",
              "rules": [
