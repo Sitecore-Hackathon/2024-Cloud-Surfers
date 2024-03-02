@@ -50,12 +50,14 @@ export const Shell = ({ children }: ShellProps) => {
         {icon && (
           <Icon
             mx="2"
-            boxSize="4"
+            boxSize="5"
             _groupHover={{
               color: color,
             }}
             as={icon}
-          />
+          >
+            <path d={icon} />
+          </Icon>
         )}
         {children}
       </Flex>
