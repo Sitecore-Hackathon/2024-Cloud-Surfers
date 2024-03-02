@@ -1,0 +1,20 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "DataSync",
+    "items": {
+       "includes": [
+          {
+             "name": "DataSyncTemplates",
+             "path": "/sitecore/templates/Modules/DataSync",
+             "scope": "itemAndDescendants",
+             "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+             "name": "DataSync",
+             "path": "/sitecore/system/Modules/DataSync",
+             "scope": "itemAndDescendants",
+             "allowedPushOperations": "CreateUpdateAndDelete"
+          }
+       ]
+    }
+ }
