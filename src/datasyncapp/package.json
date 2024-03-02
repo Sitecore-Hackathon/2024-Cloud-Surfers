@@ -16,6 +16,7 @@
     "@emotion/styled": "^11.11.0",
     "@mdi/js": "^7.4.47",
     "@sitecore/blok-theme": "^1.1.10",
+    "@tanstack/react-query": "^5.24.2",
     "framer-motion": "^11.0.8",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@chakra-ui/cli": "^2.4.1",
+    "@tanstack/eslint-plugin-query": "^5.20.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
