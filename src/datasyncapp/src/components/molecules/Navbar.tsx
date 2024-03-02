@@ -1,5 +1,5 @@
-import { Box, Container } from '@chakra-ui/react'
-import { Placeholder } from '../atoms/Placeholder'
+import { Box, Container } from '@chakra-ui/react';
+import { Placeholder } from '../atoms/Placeholder';
 
 export const Navbar = () => {
   return (
@@ -8,5 +8,5 @@ export const Navbar = () => {
         <Placeholder minH="20">Navigation</Placeholder>
       </Container>
     </Box>
-  )
-}
+  );
+};

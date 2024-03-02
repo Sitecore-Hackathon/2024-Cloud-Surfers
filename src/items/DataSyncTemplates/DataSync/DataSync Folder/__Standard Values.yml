@@ -6,9 +6,7 @@ Path: /sitecore/templates/Modules/DataSync/DataSync Folder/__Standard Values
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: |
-    {0A22B6FB-FCA8-402D-B48B-9D44DE06EC0B}
-    {44386FAF-D7C3-4FC4-86A7-5955749CB0AD}
+  Value: "{0A22B6FB-FCA8-402D-B48B-9D44DE06EC0B}"
 Languages:
 - Language: en
   Versions:
@@ -27,11 +25,11 @@ Languages:
         sitecore\james.gregory@americaneagle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0dc505a6-28eb-4335-887d-ffa15924e7a6"
+      Value: "5bec36e2-6de9-4a16-8488-fda950ba5155"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\james.gregory@americaneagle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240302T033424Z
+      Value: 20240302T202857Z

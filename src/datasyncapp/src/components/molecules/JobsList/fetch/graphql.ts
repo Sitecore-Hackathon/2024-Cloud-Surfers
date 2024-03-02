@@ -6,6 +6,7 @@ export const GET_ALL_DATA_SYNC_JOBS = gql`
       children {
         nodes {
           name
+          itemId
           WebhookUrl: field(name: "WebhookUrl") {
             value
           }
@@ -16,6 +17,12 @@ export const GET_ALL_DATA_SYNC_JOBS = gql`
             value
           }
           Language: field(name: "Language") {
+            value
+          }
+          LastRun: field(name: "LastRun") {
+            value
+          }
+          LastMessage: field(name: "LastMessage") {
             value
           }
         }

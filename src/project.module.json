@@ -3,63 +3,12 @@
     "namespace": "Project",
     "items": {
        "includes": [
-          {
-             "name": "Templates",
-             "path": "/sitecore/templates/Project",
-             "scope": "itemAndDescendants",
-             "allowedPushOperations": "CreateUpdateAndDelete"
-          },
-          {
-             "name": "BranchTemplates",
-             "path": "/sitecore/templates/Branches/Project",
-             "scope": "itemAndDescendants",
-             "allowedPushOperations": "CreateUpdateAndDelete"
-          },
-          {
-             "name": "Renderings",
-             "path": "/sitecore/layout/Renderings/Project",
-             "scope": "itemAndDescendants",
-             "allowedPushOperations": "CreateUpdateAndDelete"
-          },
-          {
-             "name": "PlaceholderSettings",
-             "path": "/sitecore/layout/Placeholder Settings/Project",
-             "scope": "itemAndDescendants",
-             "allowedPushOperations": "CreateUpdateAndDelete"
-          },
-          {
-             "name": "Layouts",
-             "path": "/sitecore/layout/Layouts/Project",
-             "scope": "itemAndDescendants",
-             "allowedPushOperations": "CreateUpdateAndDelete"
-          },
-          {
-             "name": "Media",
-             "path": "/sitecore/Media Library/Project",
-             "rules": [
-               {
-                 "path": "/shared",
-                 "scope": "SingleItem",
-                 "allowedPushOperations": "CreateOnly"
-               },
-               {
-                 "path": "/clientprefix",
-                 "scope": "SingleItem",
-                 "allowedPushOperations": "CreateOnly"
-               },
-               {
-                "path": "/Rendering Thumbnails",
-                "scope": "ItemAndDescendants",
-                "allowedPushOperations": "CreateUpdateAndDelete"
-              }
-             ]
-          },
-          {
-             "name": "Tenant",
-             "path": "/sitecore/content/clientprefix",
-             "scope": "SingleItem",
-             "allowedPushOperations": "CreateOnly"
-          }
+        {
+            "name": "Templates",
+            "path": "/sitecore/templates/Project/Hackathon",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+        }
        ]
     }
  }

@@ -3,6 +3,10 @@ ID: "3396dd63-706a-45c3-8c16-201cfee4cecc"
 Parent: "08477468-d438-43d4-9d6a-6d84a611971c"
 Template: "922dcaf0-24a8-4896-81cf-824c12d0b33f"
 Path: /sitecore/system/Modules/DataSync
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -13,11 +17,11 @@ Languages:
       Value: 20240302T033226Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a25d882c-7134-4b18-aadf-b179a5168389"
+      Value: "4277d0ef-5751-43d3-ae06-fcaccee5b953"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\james.gregory@americaneagle.com
+        sitecore\CL52gwbjSN
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240302T033233Z
+      Value: 20240302T132047Z

@@ -1,5 +1,5 @@
-import { Box, BoxProps, Container } from '@chakra-ui/react'
-import { Placeholder } from '../atoms/Placeholder'
+import { Box, BoxProps, Container } from '@chakra-ui/react';
+import { Placeholder } from '../atoms/Placeholder';
 
 export const Footer = (props: BoxProps) => {
   return (
@@ -8,5 +8,5 @@ export const Footer = (props: BoxProps) => {
         <Placeholder minH="20">Footer</Placeholder>
       </Container>
     </Box>
-  )
-}
+  );
+};

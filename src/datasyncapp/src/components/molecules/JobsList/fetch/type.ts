@@ -5,7 +5,7 @@ export type TJobQueryResult = {
 export type TItemResult = {
   itemId: string;
   name: string;
-  children: TItemChildrenResult;
+  children?: TItemChildrenResult;
 };
 
 export type TItemChildrenResult = {
@@ -16,10 +16,13 @@ export type TItemNodeResult = {
   name: string;
   itemId: string;
   WebhookUrl: TItemFieldResult;
-  LastRun: TItemFieldResult;
+
   NewItemTemplate: TItemFieldResult;
   NewItemParent: TItemFieldResult;
   Language: TItemFieldResult;
+
+  LastRun: TItemFieldResult;
+  LastMessage: TItemFieldResult;
 };
 
 export type TItemFieldResult = {

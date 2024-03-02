@@ -41,7 +41,7 @@ export const JobsList = (props: FlexProps) => {
                   <Td>{j.LastRun?.value || 'n/a'}</Td>
                   <Td>
                     <ButtonGroup variant="ghost" size="sm">
-                      <RunButton webhook={j.WebhookUrl?.value} />
+                      <RunButton webhook={j.WebhookUrl?.value} webhookItemId={j.itemId} />
                       {/* <Tooltip label="Edit">
                         <IconButton
                           icon={

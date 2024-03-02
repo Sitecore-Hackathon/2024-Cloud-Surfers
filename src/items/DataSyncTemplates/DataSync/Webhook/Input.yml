@@ -1,15 +1,8 @@
 ﻿---
-ID: "0a22b6fb-fca8-402d-b48b-9d44de06ec0b"
-Parent: "ff769375-45a5-41d0-b3ca-f215236b9053"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Modules/DataSync/Import Job
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/graph_to.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+ID: "6c3a8745-b071-4e67-94a8-3a7a0a41981c"
+Parent: "0a22b6fb-fca8-402d-b48b-9d44de06ec0b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/DataSync/Webhook/Input
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240302T032015Z
+      Value: 20240302T032122Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\james.gregory@americaneagle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "27499d17-373c-4e4f-9d3f-6ffba66d6758"
+      Value: "1c3a9a0c-ba84-41c1-b86b-df1356bb9447"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\james.gregory@americaneagle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240302T033410Z
+      Value: 20240302T202930Z

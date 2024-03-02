@@ -1,5 +1,5 @@
-import { Container, Flex, FlexProps } from '@chakra-ui/react'
-import { Placeholder } from '../atoms/Placeholder'
+import { Container, Flex, FlexProps } from '@chakra-ui/react';
+import { Placeholder } from '../atoms/Placeholder';
 
 export const Main = (props: FlexProps) => {
   return (
@@ -10,5 +10,5 @@ export const Main = (props: FlexProps) => {
         </Placeholder>
       </Container>
     </Flex>
-  )
-}
+  );
+};
