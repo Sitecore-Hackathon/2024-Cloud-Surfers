@@ -12,6 +12,7 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { mdiHomeVariantOutline } from '@mdi/js';
+import { iconSitecore } from '@sitecore/blok-theme';
 import React from 'react';
 
 type ShellProps = {
@@ -50,12 +51,14 @@ export const Shell = ({ children }: ShellProps) => {
         {icon && (
           <Icon
             mx="2"
-            boxSize="4"
+            boxSize="5"
             _groupHover={{
               color: color,
             }}
             as={icon}
-          />
+          >
+            <path d={icon} />
+          </Icon>
         )}
         {children}
       </Flex>
@@ -89,7 +92,12 @@ export const Shell = ({ children }: ShellProps) => {
         </a>
       </Flex>
       <Flex direction="column" as="nav" fontSize="sm" color="gray.600" aria-label="Main Navigation">
-        <NavItem icon={mdiHomeVariantOutline}>Home</NavItem>
+        <NavItem icon={mdiHomeVariantOutline}>
+          <a href="#">Home</a>
+        </NavItem>
+        <NavItem icon={iconSitecore}>
+          <a href="https://portal.sitecorecloud.io/">SitecoreCloud Portal</a>
+        </NavItem>
         {/* <NavItem icon={FaRss}>Articles</NavItem> */}
         {/* <NavItem icon={HiCollection}>Collections</NavItem>
           <NavItem icon={FaClipboardCheck}>Checklists</NavItem>         
