@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@sitecore/blok-theme": "^1.1.10",
+    "framer-motion": "^11.0.8",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0",
     "next": "14.1.1",
@@ -16,6 +21,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
