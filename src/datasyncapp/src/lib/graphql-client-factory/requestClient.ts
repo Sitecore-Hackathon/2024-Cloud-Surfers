@@ -12,7 +12,7 @@ export type ResolverContext = {
 function createRequestClient() {
   const graphQLClient = new GraphQLClient(process.env.GRAPHQL_ENDPOINT!, {
     headers: {
-      sc_apikey: process.env.SITECORE_API_KEY!,
+      "Authorization": process.env.SITECORE_API_KEY!,
     },
   });
   return graphQLClient;
