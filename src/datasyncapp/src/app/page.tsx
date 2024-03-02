@@ -1,13 +1,5 @@
-import { Main } from "@/components/molecules/Main";
-// @ts-ignore
-
-
-function App() {
-  return (
-    <Main />
-  )
-}
+import { JobsView } from '@/components/organisms/JobsView';
 
 export default function Home() {
-  return App();
+  return <JobsView />;
 }
