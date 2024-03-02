@@ -14,7 +14,12 @@ export type TItemChildrenResult = {
 
 export type TItemNodeResult = {
   name: string;
-  webhook: TItemFieldResult;
+  itemId: string;
+  WebhookUrl: TItemFieldResult;
+  LastRun: TItemFieldResult;
+  NewItemTemplate: TItemFieldResult;
+  NewItemParent: TItemFieldResult;
+  Language: TItemFieldResult;
 };
 
 export type TItemFieldResult = {

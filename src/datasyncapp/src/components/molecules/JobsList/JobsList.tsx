@@ -1,9 +1,8 @@
 'use client';
+import { RunButton } from '@/components/atoms/RunButton';
 import {
   ButtonGroup,
   FlexProps,
-  Icon,
-  IconButton,
   Stack,
   Table,
   TableContainer,
@@ -11,10 +10,8 @@ import {
   Td,
   Th,
   Thead,
-  Tooltip,
   Tr,
 } from '@chakra-ui/react';
-import { mdiPencilOutline, mdiPlayOutline } from '@mdi/js';
 import { useQuery } from '@tanstack/react-query';
 import { fetchDataSyncJobs, qKeyJobs } from './fetch';
 
@@ -39,25 +36,13 @@ export const JobsList = (props: FlexProps) => {
           {queryJobs.isSuccess && queryJobs.data && (
             <Tbody>
               {queryJobs.data.item.children.nodes.map((j) => (
-                <Tr key={j.name}>
+                <Tr key={`tr${j.itemId?.replace('{', '').replace('}', '').replaceAll('-', '')}`}>
                   <Td>{j.name}</Td>
-                  <Td>{j.webhook?.value}</Td>
+                  <Td>{j.LastRun?.value || 'n/a'}</Td>
                   <Td>
                     <ButtonGroup variant="ghost" size="sm">
-                      <Tooltip label="Run!">
-                        <IconButton
-                          icon={
-                            <Icon>
-                              <path d={mdiPlayOutline} />
-                            </Icon>
-                          }
-                          size="lg"
-                          isActive
-                          colorScheme="success"
-                          aria-label={'Run'}
-                        />
-                      </Tooltip>
-                      <Tooltip label="Edit">
+                      <RunButton webhook={j.WebhookUrl?.value} />
+                      {/* <Tooltip label="Edit">
                         <IconButton
                           icon={
                             <Icon>
@@ -67,7 +52,7 @@ export const JobsList = (props: FlexProps) => {
                           size="lg"
                           aria-label={'Edit'}
                         />
-                      </Tooltip>
+                      </Tooltip> */}
                     </ButtonGroup>
                   </Td>
                 </Tr>
