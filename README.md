@@ -29,7 +29,7 @@ There are three components to this submission:
 
 ## Video link
 
-⟹ [XM Cloud Module Demo](XXX)
+⟹ [XM Cloud Module Demo](https://youtu.be/nF1gruyryg4)
 
 ## Pre-requisites and Dependencies
 
