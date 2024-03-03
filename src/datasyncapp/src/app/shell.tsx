@@ -1,5 +1,6 @@
 'use client';
 import { Logo } from '@/components/atoms/Logo';
+import LoginButton from '@/components/molecules/LoginButton';
 import {
   Box,
   Drawer,
@@ -172,7 +173,7 @@ export const Shell = ({ children }: ShellProps) => {
               <Input placeholder="Search for articles..." />
             </InputGroup> */}
 
-          <Flex align="center">
+          <Flex align="center" justify="space-between" width={'100%'}>
             <Text
               fontSize="2xl"
               ml="2"
@@ -192,6 +193,7 @@ export const Shell = ({ children }: ShellProps) => {
                 src="https://avatars.githubusercontent.com/u/30869823?v=4"
                 cursor="pointer"
               /> */}
+            <LoginButton profileUrl="/" />
           </Flex>
         </Flex>
 
